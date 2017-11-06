@@ -1,9 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="propsi.com.propsi.Vagas">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Vagas de Emprego"
+        android:textColor="@color/Vermelho"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:text="Gerente de Recursos Humanos"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/txtInformacoes1"
+        android:layout_marginTop="22dp"
+        android:text="Psicológo"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/txtInformacoes2"
+        android:layout_marginTop="18dp"
+        android:text="Psicopedagogo"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_below="@+id/txtInformacoes3"
+        android:layout_marginTop="20dp"
+        android:text="Professor de Psicologia"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInformacoes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ informações"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/txtInformacoes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ informações"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/txtInformacoes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ informações"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView23"
+        android:layout_alignRight="@+id/textView23"
+        android:layout_alignEnd="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/txtInformacoes4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView26"
+        android:layout_alignRight="@+id/textView26"
+        android:layout_below="@+id/textView26"
+        android:text="+ informações"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:text="Orientar aos gestores da área de negócio quanto a processos e politicas internas relacionadas à Gestão de Recursos Humanos"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:text="Atendimento psicossocial a jovens e familiares. Encaminhamento para a rede pública de atendimento. Contato com empresas cliente / coordenadores dos jovens."
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_below="@+id/textView22"
+        android:text="Especialização em psicopedagogia , contribuir para a compreensão de problemas dos alunos em sala e aula e assessorar o professor em processos de ensino-aprendizagem."
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/textView25"
+        android:text="Psicóloga ( recém formada)"
+        android:visibility="visible" />
+
+</RelativeLayout>

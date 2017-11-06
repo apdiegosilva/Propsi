@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="propsi.com.propsi.Dicas">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        app:srcCompat="@drawable/curriculo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnVideo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Vermelho"
+        android:text="ASSISTIR"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnVideo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:background="@color/Vermelho"
+        android:text="ASSISTIR"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passo a passo para criar um currículo"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnVideo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="10 dicas para ser um bom profissional" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sucesso"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/btnVideo1"
+        android:layout_alignStart="@+id/btnVideo1" />
+</RelativeLayout>
